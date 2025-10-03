@@ -8,6 +8,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "rg-oidc-example1"
+  name     = "rg-oidc-example12"
   location = "East US"
 }
