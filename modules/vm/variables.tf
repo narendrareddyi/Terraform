@@ -3,6 +3,7 @@ variable "location" {}
 variable "vm_name" {}
 variable "admin_username" {}
 variable "admin_password" {}
-variable "vm_size" {
-  default = "Standard_DS1_v2"
+variable "vm_size" {}
+variable "subnet_id" {
+  description = "Subnet ID to attach NIC"
 }
